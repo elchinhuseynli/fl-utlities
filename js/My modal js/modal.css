@@ -1,0 +1,31 @@
+/* Modals */
+
+.modal {
+    overflow-x: hidden;
+    transition: transform 0.5s;
+    position: fixed;
+    z-index: 99999;
+    top: 0;
+    right: 0;
+    transform: translateX(100%);
+  }
+  
+  /* [data-element="main-content"] {
+    transition: margin-left 0.2s;
+  }
+  
+  [data-element="main-content"].pushed {
+    margin-left: -5%;
+  } */
+  
+  .overlay.visible {
+    display: block;
+  }
+  
+  .modal.closed {
+    transform: translateX(100%);
+  }
+  
+  .modal.open {
+    transform: translateX(0);
+  }

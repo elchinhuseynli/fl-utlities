@@ -1,0 +1,7 @@
+[data-custom-content="content"] {
+    display: none;
+  }
+  [data-custom-nav="nav"].active {
+    background-color: #2a67b1;
+    color: white;
+  }
